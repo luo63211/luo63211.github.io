@@ -9,7 +9,7 @@ tags:
 - Nutrition Knowledge
 ---
 
-<iframe width="560" height="315" src="https://youtu.be/PTXPRrgIGu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PTXPRrgIGu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![](https://luo63211.github.io/images/Nutri-Planner/01.png)
 ![](https://luo63211.github.io/images/Nutri-Planner/2.png)
 ![](https://luo63211.github.io/images/Nutri-Planner/3.png)
