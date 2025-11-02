@@ -2,7 +2,7 @@
 title: Nutri-Planner
 layout: post
 post-image: "https://luo63211.github.io/images/Nutri-Planner/Main.png"
-description: NutriPlanneris a simulation game designedbased on fundamental principles of nutrition,aiming to replicate the real-life activity of planningthree daily meals.Players act as a nutrition planner, planning dailymeals for themselves or guests according to bodydata, activity level, and dietary goals, in order toachieve a well-balanced dietary intake that meetsthe needs for energy, food diversity, satietymacronutrients, and essential micronutrients.Each day,food items appear randomly. Yourchoices will affect your guest's weight, mood,and health.Help them-or yourself- build ahealthy eating lifestyle!
+description: NutriPlanneris a simulation game designedbased on fundamental principles of nutrition,aiming to replicate the real-life activity of planningthree daily meals.Players act as a nutrition planner, planning dailymeals for themselves or guests according to bodydata, activity level, and dietary goals, in order toachieve a well-balanced dietary intake that meetsthe needs for energy, food diversity, satietymacronutrients, and essential micronutrients.Each day,food items appear randomly. Yourchoices will affect your guest's weight, mood,and health.Help them-or yourself- build ahealthy eating lifestyle!!
 tags:
 - Simulation
 - Serious Gmae
