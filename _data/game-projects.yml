@@ -1,8 +1,8 @@
 - name: Nutri-Planner
   image: https://luo63211.github.io/images/Nutri-Planner/half.png
   link: https://luo63211.github.io/game/Nutri-Planner
-  description: A nutrition planning simulation game based on nutrition principles using Unity engine.
+  description: A nutrition planning simulation game using Unity.
 - name: Self-Proof
   link: https://luo63211.github.io/game/Self-Proof
   image: https://luo63211.github.io/images/Self-Proof/half.png
-  description: A narrative game inspired by personal love experiences based on psychology principles using Unity. 
+  description: A narrative game inspired by personal love experiences using Unity. 
