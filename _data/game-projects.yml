@@ -1,8 +1,8 @@
-- name: agme11111
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+- name: Nutri-Planner
+  image: https://luo63211.github.io/images/Nutri-Planner/Main.png
   link: https://luo63211.github.io/game/Nutri-Planner
-  description: cccccccccccccccccccccccccc
-- name: game22222
+  description: A nutrition planning simulation game based on nutrition principles using Unity engine.
+- name: Self-Proof
   link: https://luo63211.github.io/game/Self-Proof
-  image: https://luo63211.github.io/game/Self-Proof
-  description: bbbbbbbbbbbbbbbbbbbbbbbbb
+  image: https://luo63211.github.io/images/Self-Proof/Main.png
+  description: A narrative game inspired by personal love experiences based on psychology principles using Unity. 
