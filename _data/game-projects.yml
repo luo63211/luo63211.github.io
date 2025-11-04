@@ -1,7 +1,7 @@
 - name: Nutri-Planner
   image: https://luo63211.github.io/images/Nutri-Planner/half.png
   link: https://luo63211.github.io/game/Nutri-Planner
-  description: A nutrition planning simulation game using Unity.
+  description: A simulation game based on principles of nutrition using Unity.
 - name: Self-Proof
   link: https://luo63211.github.io/game/Self-Proof
   image: https://luo63211.github.io/images/Self-Proof/half.png
