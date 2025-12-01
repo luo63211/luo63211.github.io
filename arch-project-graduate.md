@@ -5,4 +5,5 @@ description: The project culminates in a resort hotel design that provides an im
 tags:
 - Architecture
 ---
-![](https://luo63211.github.io/images/Architecture/Guaduation.jpg)
+
+![](https://luo63211.github.io/images/Architecture/Graduation.jpg)

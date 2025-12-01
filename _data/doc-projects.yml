@@ -1,8 +1,4 @@
-- name: Script
-  image: https://luo63211.github.io/images/42/half.png
+- name: Script of Self-Proof
+  image: https://luo63211.github.io/images/Self-Proof/half.png
   link: https://luo63211.github.io/doc-project-Selfproof-Script
-  description: A music-to-light performance installation using Arduino.
-- name: AFK
-  image: https://luo63211.github.io/images/42/half.png
-  link: https://luo63211.github.io/doc-project-AFK-Storesystem
-  description: A music-to-light performance installation using Arduino.  
+  description: Created for game project Self-Proof.
