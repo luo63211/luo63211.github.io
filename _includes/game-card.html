@@ -1,7 +1,11 @@
-<div class="columns has-text-centered" id="game-card">
+{% assign game_category = site.data.game-categories | where: "slug", post.game_category | first %}
+<div class="columns has-text-centered game-card" id="game-card" data-category="{{ post.game_category | default: '' }}">
     <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
         <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
     </div>
+    {% if game_category %}
+    <span class="game-category-badge">{{ game_category.label }}</span>
+    {% endif %}
     <a href="{{post.url | absolute_url}}">
         <div class="column has-text-left-desktop has-text-left-tablet">
             <h1 class="title is-size-4-touch">{{post.title}}</h1>

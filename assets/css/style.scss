@@ -115,6 +115,28 @@ a.navbar-item.is-active {
     }
 }
 
+.game-category-filter {
+    padding: 5rem 1rem 0.5rem 1rem;
+
+    .game-category-filter-button {
+        background: #f2f2f2;
+        border: none;
+        border-radius: 999px;
+        color: #4a4a4a;
+        cursor: pointer;
+        font-weight: 600;
+        margin: 0.25rem;
+        padding: 0.5rem 1rem;
+        transition: all 0.2s ease;
+
+        &:hover,
+        &.is-active {
+            background: #111;
+            color: white;
+        }
+    }
+}
+
 #game {
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
@@ -125,6 +147,7 @@ a.navbar-item.is-active {
     }
 
     #game-card {
+        position: relative;
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
         transform: scale(0.85);
@@ -166,6 +189,20 @@ a.navbar-item.is-active {
 
         .content {
             margin: 0.5rem;
+        }
+
+        .game-category-badge {
+            background: #eeeeee;
+            border-radius: 999px;
+            bottom: 0.75rem;
+            color: #4a4a4a;
+            font-size: 0.75rem;
+            font-weight: 600;
+            left: 0.75rem;
+            letter-spacing: 0.03rem;
+            padding: 0.25rem 0.65rem;
+            position: absolute;
+            z-index: 1;
         }
 
         .column {

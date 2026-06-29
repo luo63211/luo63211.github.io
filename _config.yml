@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Xinbei Luo
@@ -15,7 +15,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url:
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://luo63211.github.io/images/Personal/LifeMap.png
@@ -23,12 +23,12 @@ heroimage: https://luo63211.github.io/images/Personal/LifeMap.png
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: xinbei,luo,0917@gmail.com
-facebook_username: 
-twitter_username: 
-instagram_username: 
-linkedin_username: 
+facebook_username:
+twitter_username:
+instagram_username:
+linkedin_username:
 github_username: luo63211
-youtube_channel_id: 
+youtube_channel_id:
 reddit_username: /
 behance_username: /
 dribbble_username: /
@@ -45,7 +45,7 @@ author-name: Xinbei Luo
 # URL for the Image of the Author
 author-image: https://luo63211.github.io/images/Personal/1.png
 # 60 Words About the Author
-author-about: Hi, welcome to my website. Here, I'll showcase my projects and share my journey.  
+author-about: Hi, welcome to my website. Here, I'll showcase my projects and share my journey.
 small-talk:  Link! Where are you going? --- I've seen all the sights. Time to save the princess.
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
@@ -61,9 +61,6 @@ plugins:
   - jekyll-admin
   - jekyll-feed
 
-# Permalink
-permalink: "game/:title"
-
 # Compress
 compress_html:
   clippings: all
@@ -72,9 +69,48 @@ compress_html:
 defaults:
   -
     scope:
+      path: '_posts/game'
       type: 'posts'
     values:
       layout: post
+      content_type: game
+      permalink: "/game/:title/"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      path: '_posts/arch'
+      type: 'posts'
+    values:
+      layout: post
+      content_type: arch
+      permalink: "/arch/:title/"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      path: '_posts/doc'
+      type: 'posts'
+    values:
+      layout: post
+      content_type: doc
+      permalink: "/doc/:title/"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      path: '_posts/inst'
+      type: 'posts'
+    values:
+      layout: post
+      content_type: inst
+      permalink: "/inst/:title/"
       post-image: ""
       description: ""
       tags:
